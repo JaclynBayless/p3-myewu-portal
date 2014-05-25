@@ -12,38 +12,48 @@ body {
 	box-shadow: 0px 0px 30px 0px black;
 }
 
-.logo {
- margin-left: 10px;
- margin-top: 10px;
- width: 100px;
- height: 100px;
-}
+/* Logo */
+		.logo {
+		 margin-left: 80px;
+		 margin-top: 30px;
+		 width: 100px;
+		 height: 100px;
+		}
 
-h1 {
-	font-family: Merriweather Sans;
-	margin-top: 30px;
-	float:right;
-	width: 880px;
-	text-align: center;
+/* Headline */
+		h1 {
+			font-family: Merriweather Sans, Arial, sans-serif;
+			margin-top: 50px;
+			float:right;
+			width: 810px;
+			text-align: center;
 
-}
+		}
+
+/* Tab Headings */
+		h6 {
+			font-family: Merriweather Sans, Arial, sans-serif;
+			float: left;
+			width: 25%;
+		}
 
 
 dl.tabs {
-	margin-top: 10px;
-	margin-left: 10px;
+	margin: 30px 10px 10px 10px;
 }
 
 .tabs dd {
 	width: 25%;
 }
 
+
 .content.active p {
-	margin: 10px 10px 10px 44px;
+	margin: 30px 10px 30px 43.5px;
+	font-family: Merriweather Sans, Arial, sans-serif;
+	height: 50px;
 }
 
 #header {
 	width: 100%;
 	height: auto;
-	margin: 0px 0px 20px 0px;
 }
