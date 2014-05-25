@@ -34,28 +34,41 @@ body {
 
 		}
 
+/* Accordian Margins */
+		.accordion {
+			margin: 0 80px 80px 80px;
+			border-style: solid;
+			border-width: 0 4px 0 4px;
+			border-color: grey;
+		}
+
+/* Accordian Colors */
+		.accordion dd > a.blue {
+			background: #49557F;
+			color: white;
+			border-style: solid;
+			border-width: 4px 0 0 0;
+			border-color: grey;
+			letter-spacing: 2px
+		}
+
+		.accordion dd > a:hover {
+			background: #49557F;
+			color: white;
+		}
+
 /* Tab Headings */
-		h6 {
-			font-family: Merriweather Sans, Arial, sans-serif;
-			float: left;
-			width: 25%;
-		}
-
-		dl.tabs {
-			margin: 30px 70px 10px 70px;
-		}
-
 		.tabs dd {
 			width: 25%;
 		}
 
-		.tabs dd > a {
-			padding: 10px 0 38px 10px;
+		.accordion dd.active > a {
+			background: #49557F;
+			color: white;	
 		}
+
 
 /* Tab Content */
 		.content.active p {
-			margin: 30px 82px 30px 82px;
 			font-family: Merriweather Sans, Arial, sans-serif;
-			height: 50px;
 		}
