@@ -16,18 +16,34 @@ body {
  margin-left: 10px;
  margin-top: 10px;
  width: 100px;
+ height: 100px;
 }
 
 h1 {
 	font-family: Merriweather Sans;
-	margin-top: 10px;
+	margin-top: 30px;
 	float:right;
 	width: 880px;
 	text-align: center;
 
 }
+
+
+dl.tabs {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.tabs dd {
+	width: 25%;
+}
+
+.content.active p {
+	margin: 10px 10px 10px 44px;
+}
+
 #header {
 	width: 100%;
-	height: 100px;
+	height: auto;
 	margin: 0px 0px 20px 0px;
 }
