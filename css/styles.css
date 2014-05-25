@@ -12,6 +12,11 @@ body {
 	box-shadow: 0px 0px 30px 0px black;
 }
 
+#header {
+	width: 100%;
+	height: auto;
+}
+
 /* Logo */
 		.logo {
 		 margin-left: 80px;
@@ -37,23 +42,21 @@ body {
 			width: 25%;
 		}
 
+		dl.tabs {
+			margin: 30px 10px 10px 10px;
+		}
 
-dl.tabs {
-	margin: 30px 10px 10px 10px;
-}
+		.tabs dd {
+			width: 25%;
+		}
 
-.tabs dd {
-	width: 25%;
-}
+		.tabs dd > a {
+			padding: 10px 0 38px 10px;
+		}
 
-
-.content.active p {
-	margin: 30px 10px 30px 43.5px;
-	font-family: Merriweather Sans, Arial, sans-serif;
-	height: 50px;
-}
-
-#header {
-	width: 100%;
-	height: auto;
-}
+/* Tab Content */
+		.content.active p {
+			margin: 30px 10px 30px 43.5px;
+			font-family: Merriweather Sans, Arial, sans-serif;
+			height: 50px;
+		}
