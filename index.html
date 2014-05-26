@@ -31,58 +31,123 @@
 
           <h1>My EWU Portal | Frank Kepler</h1>
 
+
+<!-- Orbit News Slider -->
+
+<div class="orbit-container">
+
+        <ul data-orbit>
+            <ul class="example-orbit" data-orbit>
+               
+              <li>
+                <img src="http://placekitten.com/840/200" alt="slide 1" />
+                <div class="orbit-caption">
+                  Major | Plus Groups
+                </div>
+              </li>
+
+              <li class="active">
+                <img src="http://www.placecage.com/840/200" alt="slide 2" />
+                <div class="orbit-caption">
+                  Major | Clubs
+                </div>
+              </li>
+
+              <li>
+                <img src="http://placesheen.com/phpthumb/phpthumb.php?src=../uploads/sheen/30.jpeg&w=840&h=200&zc=1" alt="slide 3" />
+                <div class="orbit-caption">
+                  Major | Events
+                </div>
+              </li>
+
+            </ul>
+        </ul> 
+
+</div>
+
+
+
+
 <!-- Tabs Navigation-->
+
                 <dl class="accordion" data-accordion>
 
 
 <!-- eLearning --><dd>
-                    <a href="#panel1" class="blue">eLearning</a>
+                    <a href="#panel1" class="blue" data-dropdown="drop1">eLearning</a>
                     <div id="panel1" class="content active">
                       <dl class="tabs" data-tab>
-                        <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
-                        <dd><a href="#panel2-2">Tab 2</a></dd>
-                        <dd><a href="#panel2-3">Tab 3</a></dd>
-                        <dd><a href="#panel2-4">Tab 4</a></dd>
+                        <dd class="active"><a href="#panel2-1">Canvas</a></dd>
+                        <dd><a href="#panel2-2">Eagle Axis</a></dd>
+                        <dd><a href="#panel2-3">Lynda</a></dd>
+                        <dd><a href="#panel2-4">TBD</a></dd>
                       </dl>
                       <div class="tabs-content">
                         <div class="content active" id="panel2-1">
-                          <p>First panel content goes here...</p>
+                          <p>Use canvas within this tab...
+                            <br>Possibly a direct link if that isn't possible.
+                          </p>
                         </div>
                         <div class="content" id="panel2-2">
-                          <p>Second panel content goes here...</p>
+                          <p>Use Eagle Axis within this tab...
+                            <br>Possibly a direct link if that isn't possible.
+                          </p>
                         </div>
                         <div class="content" id="panel2-3">
-                          <p>Third panel content goes here...</p>
+                          <p>Use Lynda within this tab...
+                            <br>Possibly a direct link if that isn't possible.
+                          </p>
                         </div>
                         <div class="content" id="panel2-4">
-                          <p>Fourth panel content goes here...</p>
+                          <p>eLearning Support...
+                            <br>Possibly a direct link if that isn't possible.
+                          </p>
                         </div>
                       </div>
                     </div>
-                  </dd>
-                  
+                  </dd>    
 
 <!-- Courses -->  <dd>
-                    <a href="#panel2" class="blue">Courses</a>
+                    <a href="#panel2" class="blue" data-dropdown="drop2">Academic</a>
                     <div id="panel2" class="content active">
                       <dl class="tabs" data-tab>
-                        <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
-                        <dd><a href="#panel2-2">Tab 2</a></dd>
-                        <dd><a href="#panel2-3">Tab 3</a></dd>
-                        <dd><a href="#panel2-4">Tab 4</a></dd>
+                        <dd class="active"><a href="#panel2-1">Courses</a></dd>
+                        <dd><a href="#panel2-2">Academic Profile</a></dd>
+                        <dd><a href="#panel2-3">Registraion Tools</a></dd>
+                        <dd><a href="#panel2-4">TDB</a></dd>
                       </dl>
+
                       <div class="tabs-content">
+
                         <div class="content active" id="panel2-1">
-                          <p>First panel content goes here...</p>
+                          <ul>
+                            <li>Currently Enrolled Courses</li>
+                            <li>Grades By Term</li>
+                          </ul>
                         </div>
+
                         <div class="content" id="panel2-2">
-                          <p>Second panel content goes here...</p>
+                          <ul>
+                            <li>Class Standing</li>
+                            <li>Degree</li>
+                            <li>Program</li>
+                          </ul>
                         </div>
+
                         <div class="content" id="panel2-3">
-                          <p>Third panel content goes here...</p>
+                          <ul>
+                            <li>Add/Drop Classes</li>
+                            <li>Schedule Tools</li>
+                          </ul>
                         </div>
+
                         <div class="content" id="panel2-4">
-                          <p>Fourth panel content goes here...</p>
+                          <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -90,52 +155,71 @@
 
 
 <!-- Financial -->  <dd>
-                    <a href="#panel3" class="blue">Financial</a>
+                    <a href="#panel3" class="blue" data-dropdown="drop3">Financial</a>
                     <div id="panel3" class="content active">
+
                       <dl class="tabs" data-tab>
-                        <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
-                        <dd><a href="#panel2-2">Tab 2</a></dd>
-                        <dd><a href="#panel2-3">Tab 3</a></dd>
-                        <dd><a href="#panel2-4">Tab 4</a></dd>
+                        <dd class="active"><a href="#panel2-1">My Account</a></dd>
+                        <dd><a href="#panel2-2">Financial Aid</a></dd>
+                        <dd><a href="#panel2-3">Bill Pay</a></dd>
+                        <dd><a href="#panel2-4">Employment</a></dd>
                       </dl>
+
                       <div class="tabs-content">
+
                         <div class="content active" id="panel2-1">
-                          <p>First panel content goes here...</p>
+                          <ul>
+                            <li>Account Statements by Quarter</li>
+                            <li>Account Balance</li>
+                            <li>Payment History</li>
+                          </ul>
                         </div>
+
                         <div class="content" id="panel2-2">
-                          <p>Second panel content goes here...</p>
+                          <ul>
+                            <li>Requirements</li>
+                            <li>FAFSA</li>                           
+                            <li>Links to Scholarships</li>
+                          </ul>
                         </div>
+
                         <div class="content" id="panel2-3">
-                          <p>Third panel content goes here...</p>
+                          <p>Form/Paypal to Pay Account Balance</p>
                         </div>
+
                         <div class="content" id="panel2-4">
-                          <p>Fourth panel content goes here...</p>
+                          <ul>
+                            <li>Time Sheets</li>
+                            <li>Eagle Axis</li>
+                            <li>1098T Tax Forms</li>
+                          </ul>
                         </div>
+
                       </div>
                     </div>
                   </dd>
 
 <!-- Social -->   <dd>
-                    <a href="#panel4" class="blue">Social</a>
+                    <a href="#panel4" class="blue" data-dropdown="drop4">Social</a>
                     <div id="panel4" class="content active">
                       <dl class="tabs" data-tab>
-                        <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
-                        <dd><a href="#panel2-2">Tab 2</a></dd>
-                        <dd><a href="#panel2-3">Tab 3</a></dd>
-                        <dd><a href="#panel2-4">Tab 4</a></dd>
+                        <dd class="active"><a href="#panel2-1">Facebook</a></dd>
+                        <dd><a href="#panel2-2">Instagram</a></dd>
+                        <dd><a href="#panel2-3">Twitter</a></dd>
+                        <dd><a href="#panel2-4">Snapchat</a></dd>
                       </dl>
                       <div class="tabs-content">
                         <div class="content active" id="panel2-1">
-                          <p>First panel content goes here...</p>
+                          <p>Main EWU related FB accounts...</p>
                         </div>
                         <div class="content" id="panel2-2">
-                          <p>Second panel content goes here...</p>
+                          <p>Main EWU related Instagram accounts...</p>
                         </div>
                         <div class="content" id="panel2-3">
-                          <p>Third panel content goes here...</p>
+                          <p>Main EWU related Twitter accounts...</p>
                         </div>
                         <div class="content" id="panel2-4">
-                          <p>Fourth panel content goes here...</p>
+                          <p>Main EWU related Snapchat accounts...</p>
                         </div>
                       </div>
                     </div>
